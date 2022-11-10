@@ -76,7 +76,7 @@ namespace AS2223_4G_INF_CangiottiFederico_Statistiche
         /// <returns></returns>
         public int CountValue()
         {
-            return 0;
+            return numeroValori;
         }
     }
 }
