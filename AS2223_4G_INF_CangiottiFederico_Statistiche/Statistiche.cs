@@ -8,10 +8,10 @@ namespace AS2223_4G_INF_CangiottiFederico_Statistiche
 {
     public class Statistiche
     {
-        int numeroValori;
-        int sommaValori;
-        int sommaValoriPerPeso;
-        double sommaPesi;
+        int numeroValori = 0;
+        int sommaValori = 0;
+        int sommaValoriPerPeso = 0;
+        double sommaPesi = 0;
 
         public Statistiche()
         {
