@@ -35,7 +35,8 @@ namespace AS2223_4G_INF_CangiottiFederico_Statistiche
         /// <param name="peso"></param>
         public void AddValue(int valore, double peso)
         {
-
+            sommaValoriPerPeso += valore;
+            sommaPesi += peso;
         }
 
         /// <summary>
