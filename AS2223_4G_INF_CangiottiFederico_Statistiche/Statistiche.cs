@@ -10,7 +10,7 @@ namespace AS2223_4G_INF_CangiottiFederico_Statistiche
     {
         int numeroValori = 0;
         int sommaValori = 0;
-        int sommaValoriPerPeso = 0;
+        double sommaValoriPerPeso = 0;
         double sommaPesi = 0;
 
         public Statistiche()
@@ -35,7 +35,7 @@ namespace AS2223_4G_INF_CangiottiFederico_Statistiche
         /// <param name="peso"></param>
         public void AddValue(int valore, double peso)
         {
-            sommaValoriPerPeso += valore;
+            sommaValoriPerPeso += valore * peso;
             sommaPesi += peso;
         }
 
