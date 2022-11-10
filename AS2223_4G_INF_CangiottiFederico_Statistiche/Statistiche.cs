@@ -64,7 +64,10 @@ namespace AS2223_4G_INF_CangiottiFederico_Statistiche
         /// </summary>
         public void ClearValue()
         {
-
+            numeroValori = 0;
+            sommaValori = 0;
+            sommaValoriPerPeso = 0;
+            sommaPesi = 0;
         }
 
         /// <summary>
