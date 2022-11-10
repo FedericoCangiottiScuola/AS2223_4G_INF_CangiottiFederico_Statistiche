@@ -8,6 +8,11 @@ namespace AS2223_4G_INF_CangiottiFederico_Statistiche
 {
     public class Statistiche
     {
+        int numeroValori;
+        int sommaValori;
+        int sommaValoriPerPeso;
+        double sommaPesi;
+
         public Statistiche()
         {
 
@@ -19,6 +24,7 @@ namespace AS2223_4G_INF_CangiottiFederico_Statistiche
         /// <param name="valore"></param>
         public void AddValue(int valore)
         {
+            sommaValori += valore;
         }
 
         /// <summary>
