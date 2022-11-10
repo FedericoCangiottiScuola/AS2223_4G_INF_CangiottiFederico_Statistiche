@@ -25,6 +25,7 @@ namespace AS2223_4G_INF_CangiottiFederico_Statistiche
         public void AddValue(int valore)
         {
             sommaValori += valore;
+            numeroValori++;
         }
 
         /// <summary>
