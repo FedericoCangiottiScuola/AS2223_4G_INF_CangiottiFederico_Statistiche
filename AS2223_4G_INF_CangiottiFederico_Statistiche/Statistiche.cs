@@ -47,7 +47,7 @@ namespace AS2223_4G_INF_CangiottiFederico_Statistiche
         /// <returns></returns>
         public double MediaAritmetica()
         {
-            return (float)sommaValori / numeroValori;
+            return (double)sommaValori / numeroValori;
         }
 
         /// <summary>
