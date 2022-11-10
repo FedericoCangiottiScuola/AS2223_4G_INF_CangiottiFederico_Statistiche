@@ -37,6 +37,7 @@ namespace AS2223_4G_INF_CangiottiFederico_Statistiche
         {
             sommaValoriPerPeso += valore * peso;
             sommaPesi += peso;
+            numeroValori++;
         }
 
         /// <summary>
