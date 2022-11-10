@@ -56,7 +56,7 @@ namespace AS2223_4G_INF_CangiottiFederico_Statistiche
         /// <returns></returns>
         public double MediaPonderata()
         {
-            return 0;
+            return sommaValoriPerPeso / sommaPesi;
         }
 
         /// <summary>
