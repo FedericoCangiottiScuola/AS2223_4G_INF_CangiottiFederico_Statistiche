@@ -8,7 +8,13 @@ namespace UnitTest
         }
 
         [Test]
-        public void Test1()
+        public void Test_MediaAritmetica()
+        {
+            Assert.Pass();
+        }
+
+        [Test]
+        public void Test_MediaPonderata()
         {
             Assert.Pass();
         }
